@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <main>
+    <section class="intro-c">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+
+    <div class="signup-c">
+      <div class="signup-header-c">
+        <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+      </div>
+
+      <form action="/" class="form-c">
+        <div class="input-c">
+          <input type="text" id="firstName" class="input-field" placeholder="First Name" required>
+          <span class="error-msg">First Name cannot be empty</span>
+        </div>
+
+        <div class="input-c">
+          <input type="text" id="lastName" class="input-field" placeholder="Last Name" required>
+          <span class="error-msg">Last Name cannot be empty</span>
+        </div>
+
+        <div class="input-c">
+          <input type="email" id="email" class="input-field" placeholder="Email Address" required>
+          <span class="error-msg error-email">Looks like this is not an email</span>
+        </div>
+
+        <div class="input-c">
+          <input type="password" id="password" class="input-field" placeholder="Password" required>
+          <span class="error-msg">Password cannot be empty</span>
+        </div>
+
+        <button class="btn-claim">Claim your free trial</button>
+        <p class="txt-agreement">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded with <i class="far fa-heart"></i> by <a href="https://github.com/LucasWeidas" target="_blank">Lucas Weidas</a>.
+    </p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
