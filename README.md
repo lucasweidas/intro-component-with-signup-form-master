@@ -19,8 +19,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [github.com/lucasweidas/](https://github.com/lucasweidas/)
-- Live Site URL: [lucasweidas.github.io//](https://lucasweidas.github.io//)
+- Solution URL: [github.com/lucasweidas/intro-component-with-signup-form-master](https://github.com/lucasweidas/intro-component-with-signup-form-master)
+- Live Site URL: [lucasweidas.github.io/intro-component-with-signup-form-master/](https://lucasweidas.github.io/intro-component-with-signup-form-master/)
 
 ## My process
 
